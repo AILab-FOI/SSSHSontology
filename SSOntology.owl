@@ -1,0 +1,1018 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/ai/ontologies/2017/1/untitled-ontology-7"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/ai/ontologies/2017/1/untitled-ontology-7">
+    <Prefix name="" IRI="http://www.semanticweb.org/ai/ontologies/2017/1/untitled-ontology-7"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#RestoreMode"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#vendor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#minimal_functional_level"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#orientation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#environment_influence_domain"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#measurement_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SelfSustainableCity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#resource_manipulation_rate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#upper_threshold"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Technology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SolarTechnology"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#uses_connection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SelfSustainableBuilding"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#technology_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysicalDevice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SelfSustainableVillage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#technology_description"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#connection_description"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#connection_cost"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#connection_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SavingMode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ResourceManipulator"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_backup_storage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IndoorLocation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ControllingTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConflictResolutionMechanism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SystemActivity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#current_resource_level"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManualEntry"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#price_per_unit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ResourceOffer"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dwelling_schedule"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#acceptable_data_formats"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhotovoltaicTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#House"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ResourceConsumer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DwellingUnit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#state"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#uses_technology"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#optimal_range"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StorageTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Houseboat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Converters"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#acceptable_message_formats"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Activity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AdvanceMode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StorageSubsystem"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#service_description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Negotiation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OutdoorLocation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inverters"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sensors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DemandSideManagement"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#activity_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TurbineTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mediator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SelfSustainableSystem"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nodes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ScheduleActivated"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExteriorEnvironment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#uses_resource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regulators"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DryingTechnology"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_complementary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Environment"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#acceptable_communication_protocols"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SelfSustainableOrganization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Safety"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#uses_manipulator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SelfSustainableSettlement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pumps"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#estimated_resource_requirements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Expansion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Valve"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#total_units"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requires_service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Resource"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#subsystem_description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InteriorEnvironment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LowResourceMechanism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SupportingTechnology"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#service_cost"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#interfaces"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DelayMode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PumpingTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SensorActivated"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_backup_service"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#surface_area"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#storage_losses"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#minimal_acceptable_level"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HydroTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HeatingTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HierarchicalIterative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HotWaterTechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Norm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Apartment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#connected_storage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#belongs_to"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SelfSustainabilityMechanism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StorageUnit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#total_residents"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#lower_threshold"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#manipulator_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OverflowResourceMechanism"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#uses_storage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#manipulator_description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WindTechnology"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#temperature_range"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#located_in"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HumanActivity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#operational_schedule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SupportingStructure"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#relative_priority"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#current"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysicalActivity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#acceptable_mediums"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ResourceProducer"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#maximum_capacity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Connection"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#voltage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ElectricTechnology"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AdvanceMode"/>
+        <Class IRI="#OverflowResourceMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Apartment"/>
+        <Class IRI="#DwellingUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConflictResolutionMechanism"/>
+        <Class IRI="#LowResourceMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ControllingTechnology"/>
+        <Class IRI="#Technology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Converters"/>
+        <Class IRI="#SupportingTechnology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DelayMode"/>
+        <Class IRI="#LowResourceMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DemandSideManagement"/>
+        <Class IRI="#LowResourceMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drain"/>
+        <Class IRI="#Safety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DryingTechnology"/>
+        <Class IRI="#SolarTechnology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectricTechnology"/>
+        <Class IRI="#Technology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Expansion"/>
+        <Class IRI="#Safety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExteriorEnvironment"/>
+        <Class IRI="#Environment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flat"/>
+        <Class IRI="#DwellingUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HeatingTechnology"/>
+        <Class IRI="#Technology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HierarchicalIterative"/>
+        <Class IRI="#ConflictResolutionMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HotWaterTechnology"/>
+        <Class IRI="#SolarTechnology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#House"/>
+        <Class IRI="#DwellingUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Houseboat"/>
+        <Class IRI="#DwellingUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HumanActivity"/>
+        <Class IRI="#Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HydroTechnology"/>
+        <Class IRI="#TurbineTechnology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IndoorLocation"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InteriorEnvironment"/>
+        <Class IRI="#Environment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inverters"/>
+        <Class IRI="#SupportingTechnology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LowResourceMechanism"/>
+        <Class IRI="#SelfSustainabilityMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManualEntry"/>
+        <Class IRI="#HumanActivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mediator"/>
+        <Class IRI="#ResourceManipulator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Negotiation"/>
+        <Class IRI="#ConflictResolutionMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Norm"/>
+        <Class IRI="#ConflictResolutionMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OutdoorLocation"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OverflowResourceMechanism"/>
+        <Class IRI="#SelfSustainabilityMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhotovoltaicTechnology"/>
+        <Class IRI="#SolarTechnology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalActivity"/>
+        <Class IRI="#HumanActivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PumpingTechnology"/>
+        <Class IRI="#Technology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pumps"/>
+        <Class IRI="#SupportingTechnology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regulators"/>
+        <Class IRI="#SupportingTechnology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ResourceConsumer"/>
+        <Class IRI="#ResourceManipulator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ResourceOffer"/>
+        <Class IRI="#OverflowResourceMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ResourceProducer"/>
+        <Class IRI="#ResourceManipulator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RestoreMode"/>
+        <Class IRI="#OverflowResourceMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Safety"/>
+        <Class IRI="#SupportingTechnology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SavingMode"/>
+        <Class IRI="#LowResourceMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ScheduleActivated"/>
+        <Class IRI="#SystemActivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SelfSustainableBuilding"/>
+        <Class IRI="#SelfSustainableSettlement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SelfSustainableCity"/>
+        <Class IRI="#SelfSustainableSettlement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SelfSustainableOrganization"/>
+        <Class IRI="#SelfSustainableSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SelfSustainableSettlement"/>
+        <Class IRI="#SelfSustainableSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SelfSustainableVillage"/>
+        <Class IRI="#SelfSustainableSettlement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SensorActivated"/>
+        <Class IRI="#SystemActivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sensors"/>
+        <Class IRI="#SupportingTechnology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SolarTechnology"/>
+        <Class IRI="#Technology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StorageTechnology"/>
+        <Class IRI="#Technology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StorageUnit"/>
+        <Class IRI="#StorageSubsystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SupportingStructure"/>
+        <Class IRI="#SupportingTechnology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SupportingTechnology"/>
+        <Class IRI="#Technology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SystemActivity"/>
+        <Class IRI="#Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TurbineTechnology"/>
+        <Class IRI="#Technology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Valve"/>
+        <Class IRI="#Safety"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WindTechnology"/>
+        <Class IRI="#TurbineTechnology"/>
+    </SubClassOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#belongs_to"/>
+        <Class IRI="#DwellingUnit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#connected_storage"/>
+        <Class IRI="#StorageSubsystem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#environment_influence_domain"/>
+        <Class IRI="#Environment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_backup_service"/>
+        <Class IRI="#Service"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_backup_storage"/>
+        <Class IRI="#StorageSubsystem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_complementary"/>
+        <Class IRI="#ResourceProducer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#located_in"/>
+        <Class IRI="#Activity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#located_in"/>
+        <Class IRI="#Connection"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#located_in"/>
+        <Class IRI="#DwellingUnit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#located_in"/>
+        <Class IRI="#ResourceManipulator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#located_in"/>
+        <Class IRI="#SelfSustainableSystem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#located_in"/>
+        <Class IRI="#Service"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#located_in"/>
+        <Class IRI="#StorageSubsystem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requires_service"/>
+        <Class IRI="#Activity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#uses_connection"/>
+        <Class IRI="#ResourceManipulator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#uses_manipulator"/>
+        <Class IRI="#Service"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#uses_resource"/>
+        <Class IRI="#ResourceManipulator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#uses_resource"/>
+        <Class IRI="#StorageSubsystem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#uses_storage"/>
+        <Class IRI="#ResourceManipulator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#uses_technology"/>
+        <Class IRI="#Connection"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#uses_technology"/>
+        <Class IRI="#ResourceManipulator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#uses_technology"/>
+        <Class IRI="#StorageSubsystem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#belongs_to"/>
+        <Class IRI="#SelfSustainableSettlement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#connected_storage"/>
+        <Class IRI="#StorageSubsystem"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#environment_influence_domain"/>
+        <Class IRI="#Mediator"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#environment_influence_domain"/>
+        <Class IRI="#ResourceConsumer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#environment_influence_domain"/>
+        <Class IRI="#ResourceProducer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#environment_influence_domain"/>
+        <Class IRI="#SelfSustainabilityMechanism"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#environment_influence_domain"/>
+        <Class IRI="#StorageSubsystem"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_backup_service"/>
+        <Class IRI="#Service"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_backup_storage"/>
+        <Class IRI="#StorageSubsystem"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_complementary"/>
+        <Class IRI="#ResourceProducer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#located_in"/>
+        <Class IRI="#Location"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requires_service"/>
+        <Class IRI="#Service"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#uses_connection"/>
+        <Class IRI="#Connection"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#uses_manipulator"/>
+        <Class IRI="#ResourceManipulator"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#uses_resource"/>
+        <Class IRI="#Resource"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#uses_storage"/>
+        <Class IRI="#StorageSubsystem"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#uses_technology"/>
+        <Class IRI="#Technology"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#acceptable_communication_protocols"/>
+        <Class IRI="#Technology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#acceptable_data_formats"/>
+        <Class IRI="#Technology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#acceptable_mediums"/>
+        <Class IRI="#Technology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#acceptable_message_formats"/>
+        <Class IRI="#Technology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#activity_type"/>
+        <Class IRI="#Activity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#connection_cost"/>
+        <Class IRI="#Connection"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#connection_description"/>
+        <Class IRI="#Connection"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#connection_type"/>
+        <Class IRI="#Connection"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#current"/>
+        <Class IRI="#Technology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#current_resource_level"/>
+        <Class IRI="#StorageSubsystem"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dwelling_schedule"/>
+        <Class IRI="#DwellingUnit"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#estimated_resource_requirements"/>
+        <Class IRI="#DwellingUnit"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#interfaces"/>
+        <Class IRI="#Technology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#lower_threshold"/>
+        <Class IRI="#StorageSubsystem"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#manipulator_description"/>
+        <Class IRI="#ResourceManipulator"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#manipulator_type"/>
+        <Class IRI="#ResourceManipulator"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#maximum_capacity"/>
+        <Class IRI="#StorageSubsystem"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#measurement_system"/>
+        <Class IRI="#SelfSustainableSystem"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#minimal_acceptable_level"/>
+        <Class IRI="#Service"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#minimal_functional_level"/>
+        <Class IRI="#Service"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nodes"/>
+        <Class IRI="#Connection"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#operational_schedule"/>
+        <Class IRI="#Activity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#operational_schedule"/>
+        <Class IRI="#ResourceManipulator"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#optimal_range"/>
+        <Class IRI="#Service"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#orientation"/>
+        <Class IRI="#DwellingUnit"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#price_per_unit"/>
+        <Class IRI="#Resource"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#relative_priority"/>
+        <Class IRI="#Service"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#resource_manipulation_rate"/>
+        <Class IRI="#ResourceManipulator"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#service_cost"/>
+        <Class IRI="#Service"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#service_description"/>
+        <Class IRI="#Service"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#state"/>
+        <Class IRI="#Technology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#storage_losses"/>
+        <Class IRI="#StorageSubsystem"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#subsystem_description"/>
+        <Class IRI="#StorageSubsystem"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#surface_area"/>
+        <Class IRI="#SelfSustainableSettlement"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#technology_description"/>
+        <Class IRI="#Technology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#technology_type"/>
+        <Class IRI="#Technology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#temperature_range"/>
+        <Class IRI="#Technology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#total_residents"/>
+        <Class IRI="#SelfSustainableSettlement"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#total_units"/>
+        <Class IRI="#SelfSustainableSystem"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#upper_threshold"/>
+        <Class IRI="#StorageSubsystem"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#vendor"/>
+        <Class IRI="#Technology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#voltage"/>
+        <Class IRI="#Technology"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#storage_losses"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#technology_description"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#vendor"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#belongs_to</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Defines a relationship where the entity is part of the larger structure or a system. For example, the property relates dwelling unit to a self-sustainable settlement.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#environment_influence_domain</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Environmental factors that can have measurable effects on Resource Manipulators. For example, wind speed has direct measurable influence on wind turbines.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#has_backup_service</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Recursive property which relates a service to the backup service. The backup service instance is used when the main service instance is unable to deliver; both the main and the backup service are providing the same functionalities.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#has_backup_storage</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A recursive relation of a StorageSubsystem entity; a storage system can have a backup storage system, both belonging to the StorageSubsystem class.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#has_complementary</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A recursive relation of ResourceManipulator, specifically Producer class; for example, wind turbine based producer is complementary to the solar system based producer in the context of energy production.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#located_in</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Relates physical objects or activities to specific places.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#requires_service</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Relates activities to services. For example, showering activity requires water heating and water deployment services.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#uses_connection</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Resource manipulator relating to the Connection entity in the process of resource production, consumption, etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#uses_manipulator</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Related Service and ResourceManipuator; a service requires one or more resource manipulators to deliver. For example, service that delivers hot showers might use Consumer (water heater), Mediator (water pump), Producer (PV system), etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#uses_resource</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Resource Manipiulators and Storage Subsystems use resources for their default operation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>owl:topObjectProperty</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A property that relates dwelling unit to a self-sustainable settlement.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
